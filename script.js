@@ -71,3 +71,15 @@ $(document).ready(function(){
         }
     });
 });
+
+// pdf download
+
+document.getElementById('cv').addEventListener('click',function(){
+    var pdfurl='cv/Chaitanya-CV.pdf';
+    var link=document.createElement('a');
+    link.href=pdfurl;
+    link.download='Chaitanya-CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+});
