@@ -83,3 +83,20 @@ document.getElementById('cv').addEventListener('click',function(){
     link.click();
     document.body.removeChild(link);
 });
+
+// adding links to projects
+
+function redirectToLink(){
+    window.open('https://github.com/chaitanyabhope/AI','_blank')
+}
+function redirectToLink1(){
+    window.open('https://chaitanyabhope.github.io/Grocery-store-Website/','_blank')
+}
+
+function redirectToLink2(){
+    window.open('#','_blank')
+}
+
+function redirectToLink3(){
+    window.open('https://github.com/chaitanyabhope/Smart-Face-recognition-system','_blank')
+}
