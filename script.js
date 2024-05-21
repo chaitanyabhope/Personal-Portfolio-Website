@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Engineer", "Developer", "Blogger", "Designer", "Freelancer"],
+        strings: ["Engineer", "Developer","Business Analyst","Data Analyst", "Blogger", "Designer", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["YouTuber", "Developer", "Blogger", "Designer", "Freelancer"],
+        strings: ["YouTuber", "Business Analyst","Data Analyst","Developer", "Blogger", "Designer", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -75,7 +75,7 @@ $(document).ready(function(){
 // pdf download
 
 document.getElementById('cv').addEventListener('click',function(){
-    var pdfurl='cv/Chaitanya-CV.pdf';
+    var pdfurl='cv/Bhope Chaitanya CV.pdf';
     var link=document.createElement('a');
     link.href=pdfurl;
     link.download='Chaitanya-CV.pdf';
@@ -99,4 +99,13 @@ function redirectToLink2(){
 
 function redirectToLink3(){
     window.open('https://github.com/chaitanyabhope/Smart-Face-recognition-system','_blank')
+}
+function redirectToLink4(){
+    window.open('https://github.com/chaitanyabhope/hand-project','_blank')
+}
+function redirectToLink5(){
+    window.open('https://github.com/chaitanyabhope/hand-project','_blank')
+}
+function redirectToLink6(){
+    window.open('https://github.com/chaitanyabhope/hand-gesture-volume-controller','_blank')
 }
